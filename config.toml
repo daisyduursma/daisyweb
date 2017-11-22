@@ -1,0 +1,42 @@
+baseurl = "https://www.daisyduursma.com/"
+languageCode = "en-US"
+title = "Daisy Duursma"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+builddrafts = false
+canonifyurls = false
+theme = "hugo-sustain"
+publishdir = "docs"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "daisy.jpg"
+  author = "Daisy Duursma"
+  description = "Data Scientist"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "daisyduursma"
+  Email         = "daisyduursma@gmail.com"
+  Scholar       = "JY_8p0sAAAAJ"
+
+
+## Main Menu
+#[[menu.main]]
+#  name = "CV"
+#  identifier = "CV"
+#  weight = 300
+#  url = "/resume/"
+#[[menu.main]]
+#  name = "Test"
+#  identifier = "Test"
+#  weight = 300
+#  url = "/test/"
