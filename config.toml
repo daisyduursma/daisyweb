@@ -22,6 +22,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
   custom_js  = []
+		
 
 [params.social]
   Github        = "daisyduursma"

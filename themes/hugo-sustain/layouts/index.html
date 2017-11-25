@@ -7,10 +7,9 @@
         <div class="avatar">
           <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
         </div>
-        <h3>I'm <strong>{{ .Site.Params.author }}</strong>, Data Scientist.</h3>
-        <h3></h3>
-        <h3>See <a href="https://scholar.google.com.au/citations?user=JY_8p0sAAAAJ&hl"> my publications</a>,</h3>
-        <h3>or send me an <a href="mailto:{{ .Site.Params.Social.Email }}">email</a>.</h3>
+        {{ .Content}}
+		
+        
         {{ partial "social.html" . }}
         </div>
       </section>
